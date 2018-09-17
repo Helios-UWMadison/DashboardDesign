@@ -1,0 +1,266 @@
+/* Styles for Helios energy dashboard */
+
+.analogy {
+    height: 28.33%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.analogyDescriptor {
+    font-size: 1.25vw;
+}
+
+#analogiesPanel {
+    float: right;
+    height: 78vh;
+    background-color: rgb(132, 151, 176);
+}
+
+#analogiesPanel, .metricPanel {
+    width: 31vw;
+    margin-top: 2vh;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.analogyQuantity {
+    font-size: 3.5vw;
+    line-height: 0.55;
+    margin-bottom: 0;
+    margin-top: 6.75vh;
+}
+
+.analogyQuantity, .analogyDescriptor {
+    margin-left: 22%;
+}
+
+.analogy img {
+    display: inline-block;
+    float: left;
+}
+
+body {
+    margin: 0;
+    font-family: 'TimeBurner', 'Segoe UI', serif;
+    color: white;
+}
+
+#content {
+    height: 96vh;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 4s;
+    background-color: rgb(70, 70, 70);
+    padding: 2vh 2vw 2vh 2vw;
+}
+
+#cellphoneIcon {
+    height: 6vw;
+    width: 6vw;
+    margin-top: 5.25vh;
+    margin-left: 1%;
+}
+
+.descriptor {
+    margin-top: 0;
+    margin-right: 5%;
+    font-size: 1.75vw;
+}
+
+#energyPanel {
+    background-color: rgb(237, 125, 49);
+}
+
+#energyPanel div {
+    background-color: rgb(197, 90, 17);
+}
+
+#energyPanel img {
+    display: block;
+    height: 16vh;
+    width: 4.75vw;
+    margin-top: 11vh;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.fade {
+    transition: opacity 2s;
+}
+
+h1 {
+    font-size: 6.5vh;
+    font-weight: normal;
+    margin: 0;
+    color: white;
+}
+
+h2 {
+    margin-top: 2.75vh;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: normal;
+    font-size: 2.1vw;
+
+}
+
+#header {
+    margin-top: 0;
+    width: 100%;
+    height: 15%;
+    background-color: rgb(51, 63, 80);
+    overflow: hidden;
+}
+
+#heliosCredit {
+    margin-top: 1.5vh;
+    margin-right: 0;
+    float: right;
+    clear: right;
+    font-size: 2vw;
+    font-style: italic;
+}
+
+#heliosCredit img {
+    height: 3.25vh;
+    margin-left: 0.5vw;
+}
+
+hr {
+    height: 2px;
+    background-color: white;
+    margin-bottom: 0;
+ }
+
+ #leafIcon {
+    display: block;
+    margin-top: 5.75vh;
+    margin-left: 2%;
+    height: 5vw;
+    width: 5vw;
+}
+
+#loadingScreen {
+    margin: 0;
+    background-color: #eff1f4;
+
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    
+    height: 100%;
+    width: 100%;
+}
+
+#loadingLogo {
+    display: block;
+    margin-top: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15vh;
+}
+
+#loadingGif {
+    height: 15vh;
+    display: block;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.metricPanel {
+    height: 38vh;
+    float: left;
+    margin-right: 1.5vw;
+}
+
+.metricPanel div {
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+.metricPanel img {
+    height: 35%;
+    margin-top: 75%;
+}
+
+#middleAnalogy {
+    border-top: solid;
+    border-bottom: solid;
+}
+
+#moneyPanel {
+    background-color: rgb(90, 170, 51);
+}
+
+#moneyPanel div {
+    background-color: rgb(84, 130, 53);
+}
+
+#moneyPanel img {
+    display: block;
+    margin-top: 11vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 16vh;
+    width: 5vw;
+}
+
+#percentagePanel {
+    background-color: rgb(191, 144, 0);
+}
+
+#percentagePanel div {
+    background-color: rgb(127, 96, 0);
+}
+
+#percentagePanel img {
+    display: block;
+    margin-top: 12.5vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 13vh;
+    width: 6.25vw;
+}
+
+.quantity {
+    margin-top: calc(0.2 * 39vh);
+    margin-bottom: 0;
+    font-size: 4.75vw;
+    color: white;
+
+    
+}
+
+.quantity, .descriptor {
+    margin-left: 32%;
+}
+
+#showerIcon {
+    margin-top: 5.25vh;
+    margin-left: 1%;
+    height: 6vw;
+    width: 6vw;
+    float: left;
+}
+
+#waterPanel {
+    background-color: rgb(47, 85, 151);
+}
+
+#waterPanel div {
+    background-color: rgb(32, 56, 100);
+}
+
+#waterPanel img {
+    display: block;
+    margin-top: 11.75vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 14.5vh;
+    width: 5vw;
+}
