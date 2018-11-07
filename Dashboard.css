@@ -1,7 +1,8 @@
 /* Styles for Helios energy dashboard */
 
 .analogy {
-    height: 28.33%;
+    /* height: 28.33%; */
+    height: 21.25%;
     margin: 0;
     overflow: hidden;
 }
@@ -27,7 +28,12 @@
     font-size: 3.5vw;
     line-height: 0.55;
     margin-bottom: 0;
-    margin-top: 6.75vh;
+    margin-top: 3vh;
+
+    /* font-size: 3.5vw;
+    line-height: 0.55;
+    margin-bottom: 0;
+    margin-top: 2vh; */
 }
 
 .analogyQuantity, .analogyDescriptor {
@@ -55,10 +61,16 @@ body {
 }
 
 #cellphoneIcon {
-    height: 6vw;
+  display: block;
+  margin-top: 2.5vh;
+  margin-left: 2%;
+  height: 5vw;
+  width: 5vw;
+
+    /* height: 6vw;
     width: 6vw;
     margin-top: 5.25vh;
-    margin-left: 1%;
+    margin-left: 1%; */
 }
 
 .descriptor {
@@ -135,11 +147,17 @@ hr {
  }
 
  #leafIcon {
-    display: block;
+   display: block;
+   margin-top: 2.5vh;
+   margin-left: 2%;
+   height: 5vw;
+   width: 5vw;
+
+    /* display: block;
     margin-top: 5.75vh;
     margin-left: 2%;
     height: 5vw;
-    width: 5vw;
+    width: 5vw; */
 }
 
 #loadingScreen {
@@ -149,7 +167,7 @@ hr {
     z-index: 1;
     position: absolute;
     top: 0px;
-    
+
     height: 100%;
     width: 100%;
 }
@@ -168,11 +186,17 @@ hr {
     margin-top: 5vh;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
 .metricPanel {
     height: 38vh;
+    float: left;
+    margin-right: 1.5vw;
+}
+
+.metricPanel2 {
+    height: 5vh;
     float: left;
     margin-right: 1.5vw;
 }
@@ -189,7 +213,7 @@ hr {
 }
 
 #middleAnalogy {
-    border-top: solid;
+    /* border-top: solid; */
     border-bottom: solid;
 }
 
@@ -233,7 +257,7 @@ hr {
     font-size: 4.75vw;
     color: white;
 
-    
+
 }
 
 .quantity, .descriptor {
@@ -241,11 +265,17 @@ hr {
 }
 
 #showerIcon {
-    margin-top: 5.25vh;
+  display: block;
+  margin-top: 2.5vh;
+  margin-left: 2%;
+  height: 5vw;
+  width: 5vw;
+
+    /* margin-top: 5.25vh;
     margin-left: 1%;
     height: 6vw;
     width: 6vw;
-    float: left;
+    float: left; */
 }
 
 #waterPanel {
