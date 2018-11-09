@@ -193,12 +193,9 @@ hr {
     height: 38vh;
     float: left;
     margin-right: 1.5vw;
-}
 
-.metricPanel2 {
-    height: 5vh;
-    float: left;
-    margin-right: 1.5vw;
+    /* v1.2 */
+    width: 48.43%;
 }
 
 .metricPanel div {
