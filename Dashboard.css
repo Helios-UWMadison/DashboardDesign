@@ -129,8 +129,9 @@ h2 {
 #heliosCredit {
     margin-top: 1.5vh;
     margin-right: 0;
-    float: right;
-    clear: right;
+    text-align: center;
+    /* float: right;
+    clear: right; */
     font-size: 2vw;
     font-style: italic;
 }
@@ -289,5 +290,5 @@ hr {
     margin-left: auto;
     margin-right: auto;
     height: 14.5vh;
-    width: 5vw;
+    width: 7vw;
 }
