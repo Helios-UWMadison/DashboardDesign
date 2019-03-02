@@ -54,8 +54,7 @@ body {
 #content {
     height: 96vh;
     overflow: hidden;
-    opacity: 0;
-    transition: opacity 4s;
+    opacity: 1;
     background-color: rgb(70, 70, 70);
     padding: 2vh 2vw 2vh 2vw;
 }
@@ -95,10 +94,6 @@ body {
     margin-left: auto;
     margin-right: auto;
 
-}
-
-.fade {
-    transition: opacity 2s;
 }
 
 h1 {
@@ -159,35 +154,6 @@ hr {
     margin-left: 2%;
     height: 5vw;
     width: 5vw; */
-}
-
-#loadingScreen {
-    margin: 0;
-    background-color: #eff1f4;
-
-    z-index: 1;
-    position: absolute;
-    top: 0px;
-
-    height: 100%;
-    width: 100%;
-}
-
-#loadingLogo {
-    display: block;
-    margin-top: 30vh;
-    margin-left: auto;
-    margin-right: auto;
-    height: 15vh;
-}
-
-#loadingGif {
-    height: 15vh;
-    display: block;
-    margin-top: 5vh;
-    margin-left: auto;
-    margin-right: auto;
-
 }
 
 .metricPanel {
