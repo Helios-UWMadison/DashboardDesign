@@ -4,7 +4,7 @@ Energy dashboard created by the Helios student organization for the University o
 This version contains the following designs:
 
 ## PV Panels Dashboard
-![Hello](img/pv_design.png)
+![Hello](img/PV_design.png)
 
 ## PV Panels Dashboard
-![Hello](img/st_design.png)
+![Hello](img/ST_design.png)
