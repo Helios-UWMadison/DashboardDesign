@@ -17,4 +17,5 @@ artifacts:
   files:
     - img/*
     - Dashboard.css
-    - Dashboard.html
+    - Dashboard_PV.html
+    - Dashboard_ST.html
